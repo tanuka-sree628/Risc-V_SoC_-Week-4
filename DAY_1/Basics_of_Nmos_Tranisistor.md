@@ -100,6 +100,6 @@ ngspice day1_nfet_idvds_L2_W5.spice
 plot -vdd#branch
 ```
 ## Output (Nmos Characteristics):
-
+![Yosys_simulation](assets/id vs vds.png)
   
 

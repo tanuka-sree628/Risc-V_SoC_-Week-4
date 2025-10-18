@@ -100,6 +100,17 @@ ngspice day1_nfet_idvds_L2_W5.spice
 plot -vdd#branch
 ```
 ## Output (Nmos Characteristics):
-![Yosys_simulation](assets/id vs vds.png)
+![Yosys_simulation](assets/id_vs_vds.png)
+
+## Result: (Observed Parameters):
+- Threshold Voltage : 0.55V
+- Saturation Voltage : Vgs-Vth(Observed from the plot)
+- Channel length modulation: Lambda( small slope in the saturation region)
+
+## Conclusion:
+This experiment verified the DC characteristics of an Nmos transistor using SKY130 technology, clearly showing cutoff, linear, and saturation regions. The threshold voltage(0.55V approx) and slight channel length modulation observed aligned well with the theoretical expectations.
+
+
+
   
 

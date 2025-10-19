@@ -2,8 +2,8 @@
 # Overview
 In this experiment, we learnt how a CMOS inverter behaves in both DC sweepmand transient conditions using Ngspice and the Sky130 PDK.
 The goal is to find the switching threshold (Vm) from its VTC curve and study how transistor sizing and analyse the rise delay and fall delay for varying W/L ratio for both pmos and nmos.
-## Transient Analysis of CMOS Inverter:
-# Model
+# Transient Analysis of CMOS Inverter:
+## Model
 ```
 *Model Description
 .param temp=27

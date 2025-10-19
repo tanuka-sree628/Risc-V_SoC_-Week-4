@@ -145,6 +145,16 @@ setplot dc1
 ```
 ![Yosys_simulation](assets/Id_vgs_multiple_Vds.png)
 
+# Conclusion:
+
+- Id–Vds plot shows linear and saturation regions → normal NMOS operation.
+
+- Id–Vgs rises sharply after threshold voltage → onset of strong inversion.
+
+- Higher Vgs increases Id → stronger channel conduction.
+
+- NMOS and PMOS together define CMOS inverter VTC → switching threshold & noise margins.
+
 
 
 

@@ -44,8 +44,11 @@ setplot dc1
 
 This plot represents:
 | X-axis(v sweep) | Drain-Source Voltage(Vds) | The voltage applied across the MOSFET      |
+
 | Y-axis(µA)      | Drain Current (Id)        | The current flowing through the transistor |
+
 | Low Vds region  | Linear region             | Current increases almost linearly with Vds |
+
 | High Vds region | Saturation region         | Current saturates & becomes nearly constant|
 
 This graph confirms normal Mosfet operation that is linear region at low VDS , saturation at higher Vds, and increasing Id with higher Vgs. 
@@ -93,8 +96,11 @@ setplot dc1
 
 This plot represents:
 | X-axis(v sweep) | Drain-Source Voltage(Vds) | The voltage applied across the MOSFET      |
+
 | Y-axis(µA)      | Drain Current (Id)        | The current flowing through the transistor |
+
 | When Vgs < Vt   | Id=0(approx)              | The Mosfet is off                          |
+
 | Once Vgs > Vt   | Current increases rapidly | This shows the onset of conduction         |
 
 The steep rise after threshold indicates the strong inversion region, where Id increases approximately quadratically with Vgs..

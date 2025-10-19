@@ -40,7 +40,7 @@ setplot dc1
 .end
 ```
 ## Output plot (Id vs Vds)
-![Yosys_simulation](assets/id_vs_vds.png)
+![Yosys_simulation](assets/Id_vs_vds.png)
 
 This plot represents:
 | X-axis(v sweep) | Drain-Source Voltage(Vds) | The voltage applied across the MOSFET      |
@@ -89,7 +89,7 @@ setplot dc1
 .end
 ```
 ## Output plot (Id vs Vds)
-![Yosys_simulation](assets/id_vs_vgs.png)
+![Yosys_simulation](assets/Id_vs_vgs.png)
 
 This plot represents:
 | X-axis(v sweep) | Drain-Source Voltage(Vds) | The voltage applied across the MOSFET      |
@@ -136,7 +136,7 @@ setplot dc1
 
 .end
 ```
-![Yosys_simulation](assets/id_vs_vgs_multiple_vds.png)
+![Yosys_simulation](assets/Id_vs_vgs_multiple_vds.png)
 
 
 

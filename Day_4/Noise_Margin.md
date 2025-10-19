@@ -41,13 +41,15 @@ display
 .end
 ```
 ## Output(Noise Margin):
+
 ![Yosys_simulation](assets/noise_margin_curve.png)
 
-The values of NMH(High Noise Margin) and NML(Noise Margin Low) are found.
+## The values of NMH(High Noise Margin) and NML(Noise Margin Low) are found.
+
 ![Yosys_simulation](assets/noise_margin_values.png)
 
 # Results:
-## Voltage Transfer Characteristic (VTC)
+Voltage Transfer Characteristic (VTC)
 
 | Parameter                 | Value / Observation            |
 |----------------------------|--------------------------------|

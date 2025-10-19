@@ -1,4 +1,4 @@
-## Lab 3 :Experiment 3 – CMOS Inverter: Static & Dynamic Behavior
+# Lab 3 :Experiment 3 – CMOS Inverter: Static & Dynamic Behavior
 # Overview
 In this experiment, we learnt how a CMOS inverter behaves in both DC sweepmand transient conditions using Ngspice and the Sky130 PDK.
 The goal is to find the switching threshold (Vm) from its VTC curve and study how transistor sizing and analyse the rise delay and fall delay for varying W/L ratio for both pmos and nmos.

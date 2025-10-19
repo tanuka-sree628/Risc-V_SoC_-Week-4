@@ -41,7 +41,7 @@ setplot dc1
 ```
 ## Output plot (Id vs Vds)
 
-![Yosys_simulation](assets/Id_vd_Vds.png)
+![Yosys_simulation](assets/Id_vs_Vds.png)
 
 This plot represents:
 | Parameter        | Region / Quantity          | Description                                 |

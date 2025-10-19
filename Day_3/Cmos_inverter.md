@@ -42,7 +42,7 @@ run
 
 The graph demosntrates the correct operation of the CMOS inverter. This shows the strong inversion, propagation delays , rise time , fall time and realistic transient slopes.
 
-The rise time and fall time is shown by
+## The rise time and fall time is shown by
 ![Yosys_simulation](assets/transient_analysis_with_delay_values.png)
 
 ## Result:
@@ -98,7 +98,7 @@ display
 This VTC(Voltage Transfer Characteristics) curve of a CMOS inverter shows how the output voltage chnages with respect to the input voltage. 
 It illustrates the switching behaviour of the inverter, highlighting regions of logic '0', logic '1', and the switching threshold(Vm) where Vin=Vout and both transistors conduct.
 
-The switching threshold is found as 0.865 V
+## The switching threshold is found as 0.865 V
 ![Yosys_simulation](assets/vtc_curve_vth_value.png)
 
 ## Result:

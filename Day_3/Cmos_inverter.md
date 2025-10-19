@@ -1,7 +1,9 @@
 # Lab 3 :Experiment 3 – CMOS Inverter: Static & Dynamic Behavior
 # Overview
+
 In this experiment, we learnt how a CMOS inverter behaves in both DC sweepmand transient conditions using Ngspice and the Sky130 PDK.
 The goal is to find the switching threshold (Vm) from its VTC curve and study how transistor sizing and analyse the rise delay and fall delay for varying W/L ratio for both pmos and nmos.
+
 # Transient Analysis of CMOS Inverter:
 ## Model
 ```
@@ -35,7 +37,7 @@ run
 
 .end
 ```
-# Output (transient analysis)
+## Output (transient analysis)
 ![Yosys_simulation](assets/Transient_analysis.png)
 
 The graph demosntrates the correct operation of the CMOS inverter. This shows the strong inversion, propagation delays , rise time , fall time and realistic transient slopes.
@@ -43,14 +45,17 @@ The graph demosntrates the correct operation of the CMOS inverter. This shows th
 The rise time and fall time is shown by
 ![Yosys_simulation](assets/transient_analysis_with_delay_values.png)
 
-# Result:
+## Result:
+
 | Parameter    | Value (nanoseconds) |
 |:------------:|:-------------------:|
 | Rise Time    | 0.337               |
 | Fall Time    | 0.287               |
 
-## DC Sweep of Cmos Inverter(VTC Curve):
-# Model
+---
+
+# DC Sweep of Cmos Inverter(VTC Curve):
+## Model
 ```
 *Model Description
 .param temp=27
@@ -86,7 +91,7 @@ display
 
 .end
 ```
-# Output (DC sweep):
+## Output (DC sweep):
 
 ![Yosys_simulation](assets/vtc_curve.png)
 
@@ -96,7 +101,8 @@ It illustrates the switching behaviour of the inverter, highlighting regions of 
 The switching threshold is found as 0.865 V
 ![Yosys_simulation](assets/vtc_curve_vth_value.png)
 
-Result:
+## Result:
+
 | Parameter                          | Value / Observation          |
 |----------------------------------- |------------------------------|
 | Switching Threshold (Vₘ)           | ≈ 0.865V (Vin = Vout)        |
@@ -115,7 +121,9 @@ Result:
 | Load           | 50 pF                                                                   |
 | Input Pulse    | 0 V → 1.8 V, tr/tf = 0.1 ns, width = 2 ns                               |
 
-## Insights
+---
+
+# Insights
 The CMOS inverter operates with near-midpoint switching (Vm ≈ VDD/2), confirming balanced PMOS/NMOS strength.
 
 PMOS is sized wider to compensate for lower hole mobility, achieving symmetric transitions.
@@ -124,7 +132,7 @@ Capacitive loading dominates delay — larger loads slow both rise and fall edge
 
 The DC and transient plots validate ideal logic inversion with full 0–VDD swing.
 
-## Summary
+# Summary
 
 - CMOS inverter behaves as expected under both static and dynamic tests.
 

@@ -3,8 +3,8 @@
 The objective of this week is to study the DC behaviour and switching characteristics of MOSFETs using SPICE simulations and   Sky130 models. 
 The week focuses on understanding velocity saturation, drain current models and constructing CMOS inverter VTC from NMOS-PMOS characteristics.
 
-## Nmos- Id vs Vds 
-# Model 
+# Nmos- Id vs Vds 
+## Model 
 ```
 *Model Description
 .param temp=27
@@ -58,6 +58,8 @@ Its typically the output characteristics plot of an NMOS transistor obtained fro
 The peak current of the plot is viewed as 
 ![Yosys_simulation](assets/id_vs_vds(peak_current).png)
 
+---
+
 ## Nmos- Id vs Vgs:
 # Model:
 ```
@@ -110,6 +112,7 @@ This graph demosntrates how MOSFET transitions from cutoff to saturation as Vgs 
 The peak current of the plot is viewed as 
 ![Yosys_simulation](assets/id_vs_vgs(peak_current).png)
 
+
 ## Output (Id vs Vgs for Multiple Vds):
 ```
 Model Description
@@ -144,6 +147,8 @@ setplot dc1
 .end
 ```
 ![Yosys_simulation](assets/Id_vgs_multiple_Vds.png)
+
+---
 
 # Conclusion:
 

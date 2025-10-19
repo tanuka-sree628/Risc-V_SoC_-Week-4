@@ -1,4 +1,4 @@
-## Lab 2 : Experiment 2 Nmos Id vs Vgs and Id vs Vds characteristics
+# Lab 2 : Experiment 2 Nmos Id vs Vgs and Id vs Vds characteristics
 
 The objective of this week is to study the DC behaviour and switching characteristics of MOSFETs using SPICE simulations and   Sky130 models. 
 The week focuses on understanding velocity saturation, drain current models and constructing CMOS inverter VTC from NMOS-PMOS characteristics.
@@ -39,7 +39,7 @@ setplot dc1
 
 .end
 ```
-## Output plot (Id vs Vds)
+# Output plot (Id vs Vds)
 
 ![Yosys_simulation](assets/Id_vs_Vds.png)
 
@@ -60,8 +60,8 @@ The peak current of the plot is viewed as
 
 ---
 
-## Nmos- Id vs Vgs:
-# Model:
+# Nmos- Id vs Vgs:
+## Model:
 ```
 *Model Description
 .param temp=27
@@ -94,7 +94,7 @@ setplot dc1
 
 .end
 ```
-## Output plot (Id vs Vds)
+# Output plot (Id vs Vds)
 ![Yosys_simulation](assets/Id_vs_Vgs.png)
 
 This plot represents:
@@ -113,7 +113,7 @@ The peak current of the plot is viewed as
 ![Yosys_simulation](assets/id_vs_vgs(peak_current).png)
 
 
-## Output (Id vs Vgs for Multiple Vds):
+# Output (Id vs Vgs for Multiple Vds):
 ```
 Model Description
 .param temp=27

@@ -1,6 +1,6 @@
 # Lab 5: Experiment 5: Cmos Inverter -  Evaluating Power Supply and Device Variation Robustness
 
-## Objective:
+# Objective:
 
 This experiment focuses on analyzing how supply voltage(Vdd) and transistor sizing variations influence the performance of a CMOS inverter designed using Sky130 models.
 The goal is to observe the impact of these changes on the Voltage Transfer Characteristics(VTC), switching threshold(Vm) and overall robustness of the inverter, especially in terms of noise margin behaviour.
@@ -41,16 +41,18 @@ display
 .endc
 .end
 ```
-# Output( Device variation):
+## Output( Device variation):
 
 ![Yosys_simulation](assets/device_variation.png)
 
-# Obseravtion:
+## Obseravtion:
 With increase in PMOS width, the switching threshold moves slightly toward higher voltages, indicating stronger pull-up strength and a rightward shift in the VTC curve.
 
 ## The Switching voltage is found as 0.98V (approx)
 
 ![Yosys_simulation](assets/device_variation_values.png)
+
+---
 
 # Power Supply Variation
 ## Model
@@ -92,7 +94,7 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
 
 .end
 ```
-# Outputs(Power Supply Variation):
+## Outputs(Power Supply Variation):
 
 ![Yosys_simulation](assets/supply.png)
 
@@ -100,9 +102,11 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
 
 ![Yosys_simulation](assets/supply_gain.png)
 
-# Observation:
+## Observation:
 As VDD decreases, both the switching threshold and gain reduce.
 At 1.8 V, the inverter gain = 7.78 and slope is -7.78 .
+
+---
 
 # Simulation Setup
 

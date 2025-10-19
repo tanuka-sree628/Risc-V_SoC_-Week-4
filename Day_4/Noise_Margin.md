@@ -48,7 +48,7 @@ display
 
 ![Yosys_simulation](assets/noise_margin_values.png)
 
-# Results:
+## Results:
 Voltage Transfer Characteristic (VTC)
 
 | Parameter                 | Value / Observation            |
@@ -71,13 +71,15 @@ Voltage Transfer Characteristic (VTC)
 - Load Capacitance:	50 fF
 - DC Sweep:	Vin = 0 → 1.8 V, step = 0.01 V
 
-# Observation:
+## Observation:
 - When the Pmos width was increased compared to earlier experiments, its drive strength improved, causing a light shift in the switching threshold and a corresponding change in noise margins.
 - The CMOS inverter demonstrates a well-defined VTC curve with a distinct switching region.
 - The extracted NML and NMH values are nearly symmentrical,with minor variation dues to device sizing.
 - Proper selection of Pmos and Nmos widths ensures stable operation even under supply or proper fluctuations. The Pmos and Nmos (W/L) ratio influences the switching voltage and both noise margins.
 - The analysis confirms thatb transistor sizing significantly affects inverter noise tolerance and logic robustness.
 -  This experiment underlines how static performance defines digital reliability and assists in timing analysis and logic design optimization.
+  
+---
 
 # Conclusion:
 Through DC sweep analysis, the VTC of the CMOS inverter was successfully obtained, and noise margins (NML, NMH) were computed.

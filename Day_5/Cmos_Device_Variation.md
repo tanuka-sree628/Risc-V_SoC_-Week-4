@@ -98,7 +98,7 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
 
 ## The gain value of the curve at 1.8V is found.
 
-![Yosys_simulation](assets/supply_values.png)
+![Yosys_simulation](assets/supply_gain.png)
 
 # Observation:
 As VDD decreases, both the switching threshold and gain reduce.

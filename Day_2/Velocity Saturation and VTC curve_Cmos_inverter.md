@@ -40,6 +40,7 @@ setplot dc1
 .end
 ```
 ## Output plot (Id vs Vds)
+
 ![Yosys_simulation](assets/Id_vd_Vds.png)
 
 This plot represents:

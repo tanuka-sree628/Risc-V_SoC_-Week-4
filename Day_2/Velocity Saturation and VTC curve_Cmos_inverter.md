@@ -39,7 +39,7 @@ setplot dc1
 
 .end
 ```
-# Output plot (Id vs Vds)
+## Output plot (Id vs Vds)
 
 ![Yosys_simulation](assets/Id_vs_Vds.png)
 
@@ -94,7 +94,7 @@ setplot dc1
 
 .end
 ```
-# Output plot (Id vs Vds)
+## Output plot (Id vs Vds)
 ![Yosys_simulation](assets/Id_vs_Vgs.png)
 
 This plot represents:
@@ -113,7 +113,7 @@ The peak current of the plot is viewed as
 ![Yosys_simulation](assets/id_vs_vgs(peak_current).png)
 
 
-# Output (Id vs Vgs for Multiple Vds):
+## Output (Id vs Vgs for Multiple Vds):
 ```
 Model Description
 .param temp=27
